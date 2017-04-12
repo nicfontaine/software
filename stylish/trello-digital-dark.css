@@ -3,23 +3,23 @@ Digital Dark Style by Michael Fabian 'Xaymar' Dirks <info@xaymar.com>.
 ----------------------------------------------------------------------*/
 
 /* The Theme now has a public GitHub repository!
-	Check it out: https://github.com/Xaymar/Trello-Digital-Dark */
+    Check it out: https://github.com/Xaymar/Trello-Digital-Dark */
 
 /*
   Lightness increases by 5% each Layer. Text is always hsl(0,0%,95%).
   Highlights are done using colors (if the website uses them).
   
   Lightness List:
-    0	5%	Background
-	1	10%	1st Layer
-	2	15%	2nd Layer
-	...
+    0   5%  Background
+    1   10% 1st Layer
+    2   15% 2nd Layer
+    ...
 */
 
 /** {
-	background-color: transparent !important;
-	color: inherit !important;
-	border-color: inherit !important;
+    background-color: transparent !important;
+    color: inherit !important;
+    border-color: inherit !important;
 }*/
 
 /* -- Layer 0 -- */
@@ -229,59 +229,59 @@ form.js-profile-form input.js-cancel-edit-profile,
 }
 
 /* Horizontal Bars */ hr {
-	background: hsl(0, 0%, 5%) !important;
+    background: hsl(0, 0%, 5%) !important;
 }
 
 /* Phenom Entry */ div.phenom {
-	margin-left: 0px;
-	margin-bottom: 2px;
-	padding: 10px 5px 8px 38px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    padding: 10px 5px 8px 38px;
 }
 /* Phenom Entry > Member */ div.phenom div.phenom-creator {
-	left: 5px;
+    left: 5px;
 }
 /* Phenom Entry > Member */ div.phenom.mod-other-type div.phenom-creator {
-	left: 12px;
+    left: 12px;
 }
 
 /* Card Labels */
 /* .card-label-red {
-	background-color: hsla(0, 100%, 50%, 0.25) !important;
+    background-color: hsla(0, 100%, 50%, 0.25) !important;
 }
 .card-label-orange {
-	background-color: hsla(30, 100%, 50%, 0.25) !important;
+    background-color: hsla(30, 100%, 50%, 0.25) !important;
 }
 .card-label-yellow {
-	background-color: hsla(60, 100%, 50%, 0.25) !important;
+    background-color: hsla(60, 100%, 50%, 0.25) !important;
 }
 .card-label-lime {
-	background-color: hsla(90, 100%, 50%, 0.25) !important;
+    background-color: hsla(90, 100%, 50%, 0.25) !important;
 }
 .card-label-green {
-	background-color: hsla(120, 100%, 50%, 0.25) !important;
+    background-color: hsla(120, 100%, 50%, 0.25) !important;
 }
 
 .card-label-sky {
-	background-color: hsla(180, 100%, 50%, 0.25) !important;
+    background-color: hsla(180, 100%, 50%, 0.25) !important;
 }
 
 .card-label-blue {
-	background-color: hsla(240, 100%, 50%, 0.25) !important;
+    background-color: hsla(240, 100%, 50%, 0.25) !important;
 }
 .card-label-purple {
-	background-color: hsla(270, 100%, 50%, 0.25) !important;
+    background-color: hsla(270, 100%, 50%, 0.25) !important;
 }
 .card-label-purple {
-	background-color: hsla(300, 100%, 50%, 0.25) !important;
+    background-color: hsla(300, 100%, 50%, 0.25) !important;
 }
 .card-label-pink {
-	background-color: hsla(330, 100%, 50%, 0.25) !important;
+    background-color: hsla(330, 100%, 50%, 0.25) !important;
 }
 .card-label-black {
-	background-color: hsla(0, 0%, 0%, 0.25) !important;
+    background-color: hsla(0, 0%, 0%, 0.25) !important;
 }
 .card-label-null {
-	background-color: hsla(0, 0%, 100%, 0.25) !important;
+    background-color: hsla(0, 0%, 100%, 0.25) !important;
 } */
 
 .card-label { opacity: 0.6; }
@@ -290,34 +290,34 @@ form.js-profile-form input.js-cancel-edit-profile,
    Webkit-only here (Chrome, Opera, Steam)
    ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
 ::-webkit-scrollbar {
-	background: transparent !important;
-	height: 12px !important;
-	width: 12px !important;
+    background: transparent !important;
+    height: 12px !important;
+    width: 12px !important;
 }
 ::-webkit-scrollbar-button {
-	display: none !important;
+    display: none !important;
 }
 ::-webkit-scrollbar-track {
-	background: transparent !important;
+    background: transparent !important;
 }
 ::-webkit-scrollbar-track:horizontal {
-	margin-left: 4px !important;
-	margin-right: 4px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
 }
 ::-webkit-scrollbar-track:vertical {
-	margin-top: 4px !important;
-	margin-bottom: 4px !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
 }
 ::-webkit-scrollbar-track-piece {
-	background: #050505 !important;
-	border-radius: 0px !important;
+    background: #050505 !important;
+    border-radius: 0px !important;
 }
 ::-webkit-scrollbar-thumb {
-	background: #222222 !important;
-	border-radius: 16px;
+    background: #222222 !important;
+    border-radius: 16px;
 }
 ::-webkit-scrollbar-thumb:hover {
-	box-shadow: inset 0 0 6px #777;
+    box-shadow: inset 0 0 6px #777;
 }
 
 /************************/
@@ -428,7 +428,7 @@ div.list div.list-card {
 }
 
 .list-header-extras-menu {
-	transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .list-header-extras-menu > .icon-sm {
@@ -468,4 +468,16 @@ textarea.mod-list-name {
 
 .window {
     overflow: auto;
+}
+
+.window-sidebar {
+    padding: 8px 0 9pt 0;
+}
+
+.list-header-extras {
+    pointer-events: none;
+}
+
+.list-header-extras-menu {
+    pointer-events: all;
 }
